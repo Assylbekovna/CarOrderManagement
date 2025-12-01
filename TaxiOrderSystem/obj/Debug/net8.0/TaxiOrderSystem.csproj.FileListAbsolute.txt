@@ -1,0 +1,15 @@
+/workspaces/CarOrderManagement/TaxiOrderSystem/bin/Debug/net8.0/TaxiOrderSystem
+/workspaces/CarOrderManagement/TaxiOrderSystem/bin/Debug/net8.0/TaxiOrderSystem.deps.json
+/workspaces/CarOrderManagement/TaxiOrderSystem/bin/Debug/net8.0/TaxiOrderSystem.runtimeconfig.json
+/workspaces/CarOrderManagement/TaxiOrderSystem/bin/Debug/net8.0/TaxiOrderSystem.dll
+/workspaces/CarOrderManagement/TaxiOrderSystem/bin/Debug/net8.0/TaxiOrderSystem.pdb
+/workspaces/CarOrderManagement/TaxiOrderSystem/obj/Debug/net8.0/TaxiOrderSystem.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CarOrderManagement/TaxiOrderSystem/obj/Debug/net8.0/TaxiOrderSystem.AssemblyInfoInputs.cache
+/workspaces/CarOrderManagement/TaxiOrderSystem/obj/Debug/net8.0/TaxiOrderSystem.AssemblyInfo.cs
+/workspaces/CarOrderManagement/TaxiOrderSystem/obj/Debug/net8.0/TaxiOrderSystem.csproj.CoreCompileInputs.cache
+/workspaces/CarOrderManagement/TaxiOrderSystem/obj/Debug/net8.0/TaxiOrderSystem.sourcelink.json
+/workspaces/CarOrderManagement/TaxiOrderSystem/obj/Debug/net8.0/TaxiOrderSystem.dll
+/workspaces/CarOrderManagement/TaxiOrderSystem/obj/Debug/net8.0/refint/TaxiOrderSystem.dll
+/workspaces/CarOrderManagement/TaxiOrderSystem/obj/Debug/net8.0/TaxiOrderSystem.pdb
+/workspaces/CarOrderManagement/TaxiOrderSystem/obj/Debug/net8.0/TaxiOrderSystem.genruntimeconfig.cache
+/workspaces/CarOrderManagement/TaxiOrderSystem/obj/Debug/net8.0/ref/TaxiOrderSystem.dll
