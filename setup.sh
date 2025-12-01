@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# 1. Жобаны жасау
+
 dotnet new console -o TaxiOrderSystem
 cd TaxiOrderSystem
 
-# 2. States папкасын жасау
+
 mkdir States
 
-# 3. BaseState.cs
 cat > States/BaseState.cs <<'EOF'
 namespace TaxiOrderSystem.States
 {
@@ -25,7 +24,7 @@ namespace TaxiOrderSystem.States
 }
 EOF
 
-# 4. IdleState.cs
+
 cat > States/IdleState.cs <<'EOF'
 using System;
 namespace TaxiOrderSystem.States
@@ -42,7 +41,7 @@ namespace TaxiOrderSystem.States
 }
 EOF
 
-# 5. CarSelectedState.cs
+
 cat > States/CarSelectedState.cs <<'EOF'
 using System;
 namespace TaxiOrderSystem.States
@@ -59,7 +58,7 @@ namespace TaxiOrderSystem.States
 }
 EOF
 
-# 6. OrderConfirmedState.cs
+
 cat > States/OrderConfirmedState.cs <<'EOF'
 using System;
 namespace TaxiOrderSystem.States
@@ -76,7 +75,7 @@ namespace TaxiOrderSystem.States
 }
 EOF
 
-# 7. CarArrivedState.cs
+
 cat > States/CarArrivedState.cs <<'EOF'
 using System;
 namespace TaxiOrderSystem.States
@@ -93,7 +92,7 @@ namespace TaxiOrderSystem.States
 }
 EOF
 
-# 8. InTripState.cs
+
 cat > States/InTripState.cs <<'EOF'
 using System;
 namespace TaxiOrderSystem.States
@@ -110,7 +109,7 @@ namespace TaxiOrderSystem.States
 }
 EOF
 
-# 9. TripCompletedState.cs
+
 cat > States/TripCompletedState.cs <<'EOF'
 using System;
 namespace TaxiOrderSystem.States
@@ -127,7 +126,7 @@ namespace TaxiOrderSystem.States
 }
 EOF
 
-# 10. TripCancelledState.cs
+
 cat > States/TripCancelledState.cs <<'EOF'
 using System;
 namespace TaxiOrderSystem.States
@@ -144,7 +143,7 @@ namespace TaxiOrderSystem.States
 }
 EOF
 
-# 11. TaxiOrderContext.cs
+
 cat > TaxiOrderContext.cs <<'EOF'
 using TaxiOrderSystem.States;
 namespace TaxiOrderSystem
@@ -164,7 +163,7 @@ namespace TaxiOrderSystem
 }
 EOF
 
-# 12. Program.cs
+
 cat > Program.cs <<'EOF'
 using System;
 using TaxiOrderSystem;
